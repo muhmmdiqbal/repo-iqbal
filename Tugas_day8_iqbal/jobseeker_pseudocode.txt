@@ -1,0 +1,9 @@
+Deklarasi
+      hasil = diterima
+Begin 
+      
+IF hasil = diterima then;
+      output "selamat anda lolos";
+else
+      output "maaf anda harus melamar lain kali";
+END IF

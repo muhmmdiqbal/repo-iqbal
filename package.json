@@ -1,0 +1,19 @@
+{
+  "name": "repo-iqbal",
+  "version": "1.0.0",
+  "description": "ini file readme iqbal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/muhmmdiqbal/repo-iqbal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/muhmmdiqbal/repo-iqbal/issues"
+  },
+  "homepage": "https://gitlab.com/muhmmdiqbal/repo-iqbal#readme"
+}

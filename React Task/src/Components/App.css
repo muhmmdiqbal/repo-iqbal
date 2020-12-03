@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+.body {
+  display: grid;
+  height: 100vh;
+  font-family: system-ui, sans-serif;
+  grid-template: auto 1fr auto / auto 1fr auto
+}
+ul {
+  list-style: none;
+}
+header {
+  background: lightpink;
+  padding: 2rem;
+  grid-column: 1 / 4;
+  text-align: center;
+}
+main {
+  background: coral;
+  grid-column: 2 / 3;
+  text-align: center;
+}
+
+footer {
+  background: wheat;
+  padding: 2rem;
+  text-align: center;
+  grid-column: 1 / 4;
+}

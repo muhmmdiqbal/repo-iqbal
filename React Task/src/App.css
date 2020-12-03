@@ -1,28 +1,25 @@
+.App {
+  text-align: center;
+}
 .body {
   display: grid;
   height: 100vh;
+  font-family: system-ui, sans-serif;
   grid-template: auto 1fr auto / auto 1fr auto
 }
-
+ul {
+  list-style: none;
+}
 header {
   background: lightpink;
   padding: 2rem;
   grid-column: 1 / 4;
+  text-align: center;
 }
-
-.left-sidebar {
-  background: lightblue;
-  grid-column: 1 / 2;
-}
-
 main {
   background: coral;
   grid-column: 2 / 3;
-}
-
-.right-sidebar {
-  background: yellow;
-  grid-column: 3 / 4;
+  text-align: center;
 }
 
 footer {
@@ -30,13 +27,4 @@ footer {
   padding: 2rem;
   text-align: center;
   grid-column: 1 / 4;
-}
-
-.body {
-  font-family: system-ui, sans-serif;
-}
-
-.left-sidebar,
-.right-sidebar {
-  padding: 1rem;
 }

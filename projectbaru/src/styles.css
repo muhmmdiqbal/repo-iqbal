@@ -1,0 +1,16 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  ul {
+    list-style:none; /*menghilangkan dot list*/
+  }
+  li {
+    display: inline;
+    padding:10px;
+  }
+  h2 {
+    text-align: center;
+    color: rgb(31, 45, 58);
+  }
+  
